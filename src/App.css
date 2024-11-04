@@ -1,0 +1,39 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  background-color: #969494; /* Cor de fundo do menu */
+  padding: 10px 0; /* Espaçamento acima e abaixo */
+  position: fixed; /* Fixa o menu no topo */
+  left: 0; /* Alinha à esquerda */
+  top: 0; /* Fixa no topo da página */
+  width: 100%; /* Faz o menu ocupar toda a largura da tela */
+  z-index: 1000; /* Garante que o menu fique acima de outros conteúdos */
+}
+
+ul {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o preenchimento da lista */
+  margin: 0; /* Remove a margem da lista */
+  display: flex; /* Exibe os itens em linha */
+}
+
+li {
+  margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: #000000; /* Cor do texto */
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+a:hover {
+  color: #3a3939; /* Cor ao passar o mouse */
+  text-decoration: underline;
+}
